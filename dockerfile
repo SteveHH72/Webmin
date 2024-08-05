@@ -8,8 +8,8 @@
 
 
 # Use the latest Ubuntu image as a parent
-FROM debian:11-slim
-MAINTAINER "SteveHH" <steve72hh@gmail.com>
+FROM debian:12-slim
+LABEL key="value" "SteveHH" <steve@digital-world.dev>
 
 ENV DEBIAN_FRONTEND=noninteractive TZ=Europe/Berlin
 
